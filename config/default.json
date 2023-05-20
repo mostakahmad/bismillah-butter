@@ -1,0 +1,26 @@
+{
+  "server": {
+    "port": 4321
+  },
+  "env": "development",
+  "jwt": {
+    "secret": "theSecretKey4JWT",
+    "accessTokenExpiresIn": 15
+  },
+  "url": {
+    "qrCode": "https://someUrl.com/qrCode/"
+  },
+  "origin": "http://localhost:4321",
+  "db": {
+    "connection": {
+      "amar_hishab": {
+        "url": "mongodb+srv://mostakemouss:dDcExK7FZRjJ2R4b@cluster0.fyodr75.mongodb.net/amar_hishab",
+        "collections": {
+          "users": "users",
+          "datas": "datas",
+          "companies": "companies"
+        }
+      }
+    }
+  }
+}
